@@ -6,8 +6,8 @@
 #objcopy --dump-section .text=shellcode-raw shellcode-elf
 
 
-.global _start_label
+.global _start
 
-_start_label
+_start
 .intel_syntax noprefix
 	#code
